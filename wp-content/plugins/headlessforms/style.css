@@ -1,0 +1,47 @@
+.ohnohoney{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+}
+.headlessForm {
+  margin: 3rem 0;
+  text-align-last: left;
+}
+.headlessForm textarea {
+  display: block;
+  width: 100%;
+  min-height: 140px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+.headlessForm input[type="text"],
+.headlessForm input[type="email"],
+.headlessForm input[type="phone"],
+.headlessForm input[type="url"] {
+  padding: 5px 10px;
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 0;
+  border: 1px solid #ccc;
+}
+.headlessForm label {display: block;}
+.headlessForm label input{ margin-right: 10px;}
+
+.headlessForm input[type="submit"] {
+  padding: 0.5rem 2rem;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  background: #fff;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+
+.headlessForm .btn-holder {
+  text-align: center;
+}

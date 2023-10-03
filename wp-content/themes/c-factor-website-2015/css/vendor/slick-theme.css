@@ -1,0 +1,56 @@
+.slick-track {margin: 0;}
+
+.simple-gallery a {
+  outline: none !important;
+}
+.simple-gallery .slick-arrow{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: none !important;
+  background: none;
+  outline: none;
+  padding: 0 15px;
+}
+
+.simple-gallery .slick-arrow.slick-disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+.simple-gallery .slick-arrow i:after {
+  display: inline-block;
+  width: 17px;
+  height: 29px;
+  content: "";
+}
+
+.simple-gallery .slick-prev.slick-arrow{
+  right: 100%;
+  z-index: 2;
+}
+.simple-gallery .slick-prev.slick-arrow .icon-chevron-left:after {
+  background-image: url(/wp-content/themes/c-factor-website-2015/img/prev-color.svg);
+}
+
+
+.simple-gallery .slick-next.slick-arrow{
+  left: 100%;
+}
+.simple-gallery .slick-next.slick-arrow .icon-chevron-right:after {
+  background-image: url(/wp-content/themes/c-factor-website-2015/img/next-color.svg);
+}
+
+.simple-gallery .custom_paging {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.simple-gallery .custom_paging li {
+  display: none;
+}
+.simple-gallery .custom_paging li.slick-active{
+  display: block;
+}
