@@ -664,15 +664,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/content-marketing/</loc>
-		<lastmod>2023-09-18T08:17:39+02:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/10/LP_Content_Marketing_Teaser.jpg</image:loc>
-			<image:title><![CDATA[LP_Content_Marketing_Teaser]]></image:title>
-			<image:caption><![CDATA[Content Marketing: Für jeden Schritt in der Customer Journey den richtigen Content.]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>/employer-branding/</loc>
 		<lastmod>2023-09-18T08:34:30+02:00</lastmod>
 		<image:image>
@@ -696,6 +687,15 @@
 	<url>
 		<loc>/team/markus-stadler/</loc>
 		<lastmod>2023-10-03T13:39:30+02:00</lastmod>
+	</url>
+	<url>
+		<loc>/content-marketing/</loc>
+		<lastmod>2023-11-15T14:03:30+01:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/10/LP_Content_Marketing_Teaser.jpg</image:loc>
+			<image:title><![CDATA[LP_Content_Marketing_Teaser]]></image:title>
+			<image:caption><![CDATA[Content Marketing: Für jeden Schritt in der Customer Journey den richtigen Content.]]></image:caption>
+		</image:image>
 	</url>
 	<url>
 		<loc>/en/</loc>
